@@ -69,7 +69,8 @@ section {
 
 .ship-section{
 	Background:transparent url(../img/kasei-valles-canyons.jpg) no-repeat center;
-	background-size:cover;	
+	background-size:cover;
+	text-align: center;	
 }
 
 .ship{
@@ -79,8 +80,7 @@ section {
 
 .ship1,.ship2{
 	opacity:0;
-	margin: 0 auto;
-	display: inline;
+	display: inline-block;
 }
 
 .js-ship1{
@@ -97,6 +97,7 @@ section {
 		transform:translateY(0)
 	}
 }
+
 .js-ship2{
 	-webkit-animation: ship2 1s linear forwards;
 	-webkit-animation-delay:500ms;	
