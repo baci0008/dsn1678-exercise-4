@@ -58,6 +58,15 @@ section {
 	}	
 }
 
+@keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}	
+}
+
 .shuttle-section{
 	background-color:#EAA600;
 }
@@ -86,6 +95,16 @@ section {
 }
 
 @-ms-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}	
+}
+
+
+@keyframes dipper-fade {
 	0% {
 		opacity: 0;
 	}
@@ -140,6 +159,18 @@ section {
 	}
 }
 
+
+@keyframes ship1{
+	0%{
+		opacity:0;
+		transform:translateY(100px)	
+	}
+	100%{
+		opacity:1;
+		transform:translateY(0)
+	}
+}
+
 .js-ship2{
 	-webkit-animation: ship2 1s linear forwards;
 	-webkit-animation-delay:500ms;	
@@ -166,6 +197,18 @@ section {
 
 
 @-ms-keyframes ship2{
+	0%{
+		opacity:0;
+		transform:translateY(100px)	
+	}
+	100%{
+		opacity:1;
+		transform:translateY(0)
+	}
+}
+
+
+@keyframes ship2{
 	0%{
 		opacity:0;
 		transform:translateY(100px)	
