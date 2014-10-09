@@ -49,7 +49,7 @@ section {
 	background-color:#EAA600;
 }
 .shuttle{
-	width:200px;
+	width:250px;
 	opacity:0;
 }
 .js-shuttle-fade{
@@ -71,13 +71,18 @@ section {
 	Background:transparent url(../img/kasei-valles-canyons.jpg) no-repeat center;
 	background-size:cover;	
 }
+
 .ship{
-	width:150px;
-	display:inline-block;
+	width:170px;
+	
 }
+
 .ship1,.ship2{
 	opacity:0;
+	margin: 0 auto;
+	display: inline;
 }
+
 .js-ship1{
 	-webkit-animation: ship1 1s linear forwards;	
 }
